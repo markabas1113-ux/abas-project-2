@@ -1,1 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #333;
+}
 
+.navbar {
+    background-color: #064b91 !important;
+}
+
+.hero {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url("../images/campus.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 120px 20px;
+    color: white;
+}
+
+.hero h1 {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 12px 18px;
+    border-radius: 8px;
+    color: white !important;
+    font-size: 42px;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px black;
+}
+
+h2 {
+    color: #064b91;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+footer {
+    background-color: #064b91;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 80px 15px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+  }
